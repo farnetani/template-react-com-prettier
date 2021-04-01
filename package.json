@@ -18,7 +18,8 @@
   },
   "lint-staged": {
     "src/**/*": [
-      "yarn run lint --fix"
+      "yarn run lint --fix",
+      "yarn run test --findRelatedTests --bail"
     ]
   },
   "eslintConfig": {
