@@ -5,22 +5,14 @@
   "dependencies": {
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "4.0.3",
-    "web-vitals": "^1.0.1"
+    "react-scripts": "4.0.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "eslint src --max-warnings=0",
-    "prepare": "husky install"
-  },
-  "lint-staged": {
-    "src/**/*": [
-      "yarn run lint --fix",
-      "yarn run test --findRelatedTests --bail"
-    ]
+    "lint": "eslint src --max-warnings=0"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +33,7 @@
     ]
   },
   "devDependencies": {
+    "web-vitals": "^1.0.1",
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",
     "@testing-library/user-event": "^12.1.10",
@@ -54,8 +47,6 @@
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-react": "^7.23.1",
     "eslint-plugin-react-hooks": "^4.2.0",
-    "husky": "^6.0.0",
-    "lint-staged": "^10.5.4",
     "prettier": "^2.2.1",
     "typescript": "^4.1.2"
   }
