@@ -1,5 +1,5 @@
 <h3 align="center">
-  Template React com TailwindCSS + Eslint Prettier Jest
+template-react-sem-css
 </h3>
 
 <p align="center">
@@ -15,7 +15,7 @@
 
 # Create React App
 
-Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app).
+Este projeto foi criado com [Create React App](https://github.com/facebook/create-react-app) porém não está com nenhum framework CSS, podendo ser utilizado `SASS`, `TailwindCSS` ou `StyledComponents` ou qualquer outro framework CSS.
 
 <br>
 
